@@ -1,470 +1,267 @@
 ideologies = [
     {
-        "name": "Anarcho-Communism",
-        "stats": {
-            "econ": 100,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 90
-        }
+        "name": "资源平权派",
+        "description": "你主张会费共享、福利均分，会员自治权很高，还积极推动组织革新。理事长在你眼里更像平等伙伴——但别忘了，伙伴也要被崇拜。",
+        "stats": { "econ": 100, "dipl": 50, "govt": 100, "scty": 90 }
     },
     {
-        "name": "Libertarian Communism",
-        "stats": {
-            "econ": 100,
-            "dipl": 70,
-            "govt": 80,
-            "scty": 80
-        }
+        "name": "自由共享派",
+        "description": "你相信资源应共享，同时重视会员自由和跨分会合作。你对理事长的态度是：尊重，但不盲从。",
+        "stats": { "econ": 100, "dipl": 70, "govt": 80, "scty": 80 }
     },
     {
-        "name": "Trotskyism",
-        "stats": {
-            "econ": 100,
-            "dipl": 100,
-            "govt": 60,
-            "scty": 80
-        }
+        "name": "国际理事长派",
+        "description": "你支持全球各分会联合，资源共享、开放合作，是理事长的国际主义者。你的口号：全世界会员，联合起来！",
+        "stats": { "econ": 100, "dipl": 100, "govt": 60, "scty": 80 }
     },
     {
-        "name": "Marxism",
-        "stats": {
-            "econ": 100,
-            "dipl": 70,
-            "govt": 40,
-            "scty": 80
-        }
+        "name": "唯物崇拜派",
+        "description": "你从物质基础出发理解组织运作，支持资源再分配，也认可理事长的历史作用。科学分析理事长，理性崇拜理事长。",
+        "stats": { "econ": 100, "dipl": 70, "govt": 40, "scty": 80 }
     },
     {
-        "name": "De Leonism",
-        "stats": {
-            "econ": 100,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 80
-        }
+        "name": "工团自治派",
+        "description": "你支持各小组自主管理资源，对本社主义持保留态度，但认同组织需要革新。理事长？可以合作，不能凌驾。",
+        "stats": { "econ": 100, "dipl": 30, "govt": 30, "scty": 80 }
     },
     {
-        "name": "Leninism",
-        "stats": {
-            "econ": 100,
-            "dipl": 40,
-            "govt": 20,
-            "scty": 70
-        }
+        "name": "先锋队派",
+        "description": "你认为理事会应带领组织前进，资源集中调配，理事长是先锋队的核心。服从组织，就是服从理事长。",
+        "stats": { "econ": 100, "dipl": 40, "govt": 20, "scty": 70 }
     },
     {
-        "name": "Stalinism/Maoism",
-        "stats": {
-            "econ": 100,
-            "dipl": 20,
-            "govt": 0,
-            "scty": 60
-        }
+        "name": "铁腕理事长派",
+        "description": "你支持强力理事长集中资源与权力，维护本社利益，手段可以不温和。在你看来，对理事长的忠诚高于一切程序。",
+        "stats": { "econ": 100, "dipl": 20, "govt": 0, "scty": 60 }
     },
     {
-        "name": "Religious Communism",
-        "stats": {
-            "econ": 100,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 30
-        }
+        "name": "信仰理事长派",
+        "description": "你把崇拜理事长与资源共享结合在一起，既有信仰的温度，也有分配的公平。每日三省：今天崇拜了吗？",
+        "stats": { "econ": 100, "dipl": 50, "govt": 30, "scty": 30 }
     },
     {
-        "name": "State Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 70
-        }
+        "name": "福利理事会派",
+        "description": "你重视会员福利和资源公平，同时接受理事会较强的话语权。理事长管大事，会员得实惠，双赢。",
+        "stats": { "econ": 80, "dipl": 30, "govt": 30, "scty": 70 }
     },
     {
-        "name": "Theocratic Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 20
-        }
+        "name": "神圣理事会派",
+        "description": "你认为崇拜理事长是神圣事业，资源应适度共享，传统秩序不可动摇。理事长的意志，就是组织的福音。",
+        "stats": { "econ": 80, "dipl": 50, "govt": 30, "scty": 20 }
     },
     {
-        "name": "Religious Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 70,
-            "scty": 20
-        }
+        "name": "虔诚共享派",
+        "description": "你既支持资源共享，又坚守传统崇拜礼仪，会员自由空间较大。你的信仰很真诚，但还不够极端。",
+        "stats": { "econ": 80, "dipl": 50, "govt": 70, "scty": 20 }
     },
     {
-        "name": "Democratic Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 80
-        }
+        "name": "民主理事会派",
+        "description": "你支持民主决策和资源公平，也认同组织需要革新。理事长应该由会员选出，然后被全体崇拜。",
+        "stats": { "econ": 80, "dipl": 50, "govt": 50, "scty": 80 }
     },
     {
-        "name": "Revolutionary Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 20,
-            "govt": 50,
-            "scty": 70
-        }
+        "name": "革命拥趸派",
+        "description": "你支持组织变革和资源再分配，对本社封闭主义不太感冒。必要时，你会为理事长的革命理想站出来。",
+        "stats": { "econ": 80, "dipl": 20, "govt": 50, "scty": 70 }
     },
     {
-        "name": "Libertarian Socialism",
-        "stats": {
-            "econ": 80,
-            "dipl": 80,
-            "govt": 80,
-            "scty": 80
-        }
+        "name": "基层自治派",
+        "description": "你主张会员自治、资源共享、开放合作，是组织里的自由派。理事长？可以尊敬，不能专断。",
+        "stats": { "econ": 80, "dipl": 80, "govt": 80, "scty": 80 }
     },
     {
-        "name": "Anarcho-Syndicalism",
-        "stats": {
-            "econ": 80,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 80
-        }
+        "name": "互助工团派",
+        "description": "你强调会员互助和资源共有，反对理事长过度干预，同时支持组织进步。大家的事大家管，理事长负责被崇拜。",
+        "stats": { "econ": 80, "dipl": 50, "govt": 100, "scty": 80 }
     },
     {
-        "name": "Left-Wing Populism",
-        "stats": {
-            "econ": 60,
-            "dipl": 40,
-            "govt": 30,
-            "scty": 70
-        }
+        "name": "平民拥趸派",
+        "description": "你站在普通会员一边，要求资源向基层倾斜，对理事长的权威持怀疑态度。你是组织里的民意代表。",
+        "stats": { "econ": 60, "dipl": 40, "govt": 30, "scty": 70 }
     },
     {
-        "name": "Theocratic Distributism",
-        "stats": {
-            "econ": 60,
-            "dipl": 40,
-            "govt": 30,
-            "scty": 20
-        }
+        "name": "传统分配派",
+        "description": "你在资源分配上偏公平，同时坚守老规矩和崇拜传统。理事长万岁不是口号，是生活方式。",
+        "stats": { "econ": 60, "dipl": 40, "govt": 30, "scty": 20 }
     },
     {
-        "name": "Distributism",
-        "stats": {
-            "econ": 60,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 20
-        }
+        "name": "小农理事派",
+        "description": "你主张资源分散、各组自足，重视传统秩序。理事长像大家长，管方向不管细账。",
+        "stats": { "econ": 60, "dipl": 50, "govt": 50, "scty": 20 }
     },
     {
-        "name": "Social Liberalism",
-        "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 80
-        }
+        "name": "开明会员派",
+        "description": "你在各维度上都比较温和开放，支持适度改革和资源平衡。你是组织里的理性中间力量。",
+        "stats": { "econ": 60, "dipl": 60, "govt": 60, "scty": 80 }
     },
     {
-        "name": "Christian Democracy",
-        "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 50,
-            "scty": 30
-        }
+        "name": "道德理事派",
+        "description": "你重视组织道德与传统，资源分配偏公平，对外态度温和。理事长应以德服人，以威辅之。",
+        "stats": { "econ": 60, "dipl": 60, "govt": 50, "scty": 30 }
     },
     {
-        "name": "Social Democracy",
-        "stats": {
-            "econ": 60,
-            "dipl": 70,
-            "govt": 60,
-            "scty": 80
-        }
+        "name": "温和改革派",
+        "description": "你支持渐进式改革和福利保障，对外主张合作，对理事长保持礼貌距离。改动不要太大，崇拜不能太少。",
+        "stats": { "econ": 60, "dipl": 70, "govt": 60, "scty": 80 }
     },
     {
-        "name": "Progressivism",
-        "stats": {
-            "econ": 60,
-            "dipl": 80,
-            "govt": 60,
-            "scty": 100
-        }
+        "name": "革新理事长派",
+        "description": "你是组织里的进步力量，支持革新、合作与开放，资源分配也较公平。理事长应该与时俱进——但依然是理事长。",
+        "stats": { "econ": 60, "dipl": 80, "govt": 60, "scty": 100 }
     },
     {
-        "name": "Anarcho-Mutualism",
-        "stats": {
-            "econ": 60,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 70
-        }
+        "name": "互助自由派",
+        "description": "你强调会员互助和资源合理分配，反对理事长一言堂，同时认可组织需要进步。自由与秩序，你都要。",
+        "stats": { "econ": 60, "dipl": 50, "govt": 100, "scty": 70 }
     },
     {
-        "name": "National Totalitarianism",
-        "stats": {
-            "econ": 50,
-            "dipl": 20,
-            "govt": 0,
-            "scty": 50
-        }
+        "name": "本社至上派",
+        "description": "你把本组织利益放在第一位，支持理事长铁腕治理，对外强硬。别的社团？不如我们理事长一根毛。",
+        "stats": { "econ": 50, "dipl": 20, "govt": 0, "scty": 50 }
     },
     {
-        "name": "Global Totalitarianism",
-        "stats": {
-            "econ": 50,
-            "dipl": 80,
-            "govt": 0,
-            "scty": 50
-        }
+        "name": "全球统一派",
+        "description": "你梦想建立覆盖所有分会的统一理事长体系，集中权力、统一行动。全世界，一个理事长。",
+        "stats": { "econ": 50, "dipl": 80, "govt": 0, "scty": 50 }
     },
     {
-        "name": "Technocracy",
-        "stats": {
-            "econ": 60,
-            "dipl": 60,
-            "govt": 20,
-            "scty": 70
-        }
+        "name": "理性能量派",
+        "description": "你用数据和逻辑分析组织问题，支持专业化管理，对盲目崇拜持保留态度。但你也承认：理事长确实有能力。",
+        "stats": { "econ": 60, "dipl": 60, "govt": 20, "scty": 70 }
     },
     {
-        "name": "Centrist",
-        "stats": {
-            "econ": 50,
-            "dipl": 50,
-            "govt": 50,
-            "scty": 50
-        }
+        "name": "骑墙观望派",
+        "description": "你在各维度上都中规中矩，既不激进也不保守。你的态度是：理事长行就行，不行再说——但暂时先崇拜着。",
+        "stats": { "econ": 50, "dipl": 50, "govt": 50, "scty": 50 }
     },
     {
-        "name": "Liberalism",
-        "stats": {
-            "econ": 50,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 60
-        }
+        "name": "自由会员派",
+        "description": "你重视会员自主和对外合作，资源分配上不偏不倚。理事长是符号，会员才是本体——虽然符号也很重要。",
+        "stats": { "econ": 50, "dipl": 60, "govt": 60, "scty": 60 }
     },
     {
-        "name": "Religious Anarchism",
-        "stats": {
-            "econ": 50,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 20
-        }
+        "name": "虔诚自治派",
+        "description": "你坚守崇拜理事长的传统，同时给会员较大自由空间，资源分配适中。信仰很满，管得不多。",
+        "stats": { "econ": 50, "dipl": 50, "govt": 100, "scty": 20 }
     },
     {
-        "name": "Right-Wing Populism",
-        "stats": {
-            "econ": 40,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 30
-        }
+        "name": "民粹拥趸派",
+        "description": "你强调本社优先，支持强理事长，对资源分配和革新都不太积极。简单点：理事长说啥就是啥。",
+        "stats": { "econ": 40, "dipl": 30, "govt": 30, "scty": 30 }
     },
     {
-        "name": "Moderate Conservatism",
-        "stats": {
-            "econ": 40,
-            "dipl": 40,
-            "govt": 50,
-            "scty": 30
-        }
+        "name": "保守稳定派",
+        "description": "你重视组织稳定和既有秩序，不太支持大改动，资源上偏效率。上一任理事长的规矩，就是最好的规矩。",
+        "stats": { "econ": 40, "dipl": 40, "govt": 50, "scty": 30 }
     },
     {
-        "name": "Reactionary",
-        "stats": {
-            "econ": 40,
-            "dipl": 40,
-            "govt": 40,
-            "scty": 10
-        }
+        "name": "复古理事长派",
+        "description": "你极度怀念过去的组织氛围，反对一切革新，资源上偏效率。如果时光倒流，你会回到理事长最美的年代。",
+        "stats": { "econ": 40, "dipl": 40, "govt": 40, "scty": 10 }
     },
     {
-        "name": "Social Libertarianism",
-        "stats": {
-            "econ": 60,
-            "dipl": 70,
-            "govt": 80,
-            "scty": 70
-        }
+        "name": "社会自由派",
+        "description": "你支持会员自由、对外合作和组织革新，资源分配偏公平。你是开放、包容、但偶尔也会喊一句理事长万岁的人。",
+        "stats": { "econ": 60, "dipl": 70, "govt": 80, "scty": 70 }
     },
     {
-        "name": "Libertarianism",
-        "stats": {
-            "econ": 40,
-            "dipl": 60,
-            "govt": 80,
-            "scty": 60
-        }
+        "name": "放权自治派",
+        "description": "你认为理事长应少管闲事，会员各凭本事，资源向能者倾斜。效率第一，崇拜第二——但第二也不能没有。",
+        "stats": { "econ": 40, "dipl": 60, "govt": 80, "scty": 60 }
     },
     {
-        "name": "Anarcho-Egoism",
-        "stats": {
-            "econ": 40,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
-        }
+        "name": "利己会员派",
+        "description": "你把个人自由放在第一位，对集体分配和对外事务兴趣不大。理事长？只要不挡我的路就行。",
+        "stats": { "econ": 40, "dipl": 50, "govt": 100, "scty": 50 }
     },
     {
-        "name": "Nazism",
-        "stats": {
-            "econ": 40,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 5
-        }
+        "name": "极端本社派",
+        "description": "你把本组织利益极端化，对外排斥，对内强调等级。理事长是唯一的中心，其他都是杂音。",
+        "stats": { "econ": 40, "dipl": 0, "govt": 0, "scty": 5 }
     },
     {
-        "name": "Autocracy",
-        "stats": {
-            "econ": 50,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 50
-        }
+        "name": "独裁拥护派",
+        "description": "你支持理事长集中一切权力，维护本社权威，对改革和资源共享都不太上心。一个理事长，一部宪法，一种声音。",
+        "stats": { "econ": 50, "dipl": 20, "govt": 20, "scty": 50 }
     },
     {
-        "name": "Fascism",
-        "stats": {
-            "econ": 40,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 20
-        }
+        "name": "威权本社派",
+        "description": "你主张强权理事长、本社优先、等级秩序，资源向高层集中。纪律！忠诚！理事长万岁！",
+        "stats": { "econ": 40, "dipl": 20, "govt": 20, "scty": 20 }
     },
     {
-        "name": "Capitalist Fascism",
-        "stats": {
-            "econ": 20,
-            "dipl": 20,
-            "govt": 20,
-            "scty": 20
-        }
+        "name": "权资合一派",
+        "description": "你支持效率优先和强权治理，资源向能缴费者倾斜，对外封闭。理事长掌权力，能人掌资源。",
+        "stats": { "econ": 20, "dipl": 20, "govt": 20, "scty": 20 }
     },
     {
-        "name": "Conservatism",
-        "stats": {
-            "econ": 30,
-            "dipl": 40,
-            "govt": 40,
-            "scty": 20
-        }
+        "name": "传统守护派",
+        "description": "你坚守组织传统和等级秩序，资源分配偏效率，不太支持对外开放。老规矩里写着：理事长永远正确。",
+        "stats": { "econ": 30, "dipl": 40, "govt": 40, "scty": 20 }
     },
     {
-        "name": "Neo-Liberalism",
-        "stats": {
-            "econ": 30,
-            "dipl": 30,
-            "govt": 50,
-            "scty": 60
-        }
+        "name": "效率至上派",
+        "description": "你认为组织运转效率最重要，反对过多福利分配，支持适度开放。理事长是 CEO，不是偶像——但你还是会喊万岁。",
+        "stats": { "econ": 30, "dipl": 30, "govt": 50, "scty": 60 }
     },
     {
-        "name": "Classical Liberalism",
-        "stats": {
-            "econ": 30,
-            "dipl": 60,
-            "govt": 60,
-            "scty": 80
-        }
+        "name": "古典自由派",
+        "description": "你重视会员自由和对外合作，资源上偏效率，也支持组织进步。理事长的权力应该有限——无限的是你的崇拜。",
+        "stats": { "econ": 30, "dipl": 60, "govt": 60, "scty": 80 }
     },
     {
-        "name": "Authoritarian Capitalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 30,
-            "govt": 20,
-            "scty": 40
-        }
+        "name": "权财理事派",
+        "description": "你支持强权理事长和经济效率，资源向贡献大的人倾斜。谁交会费多，谁离理事长更近。",
+        "stats": { "econ": 20, "dipl": 30, "govt": 20, "scty": 40 }
     },
     {
-        "name": "State Capitalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 30,
-            "scty": 50
-        }
+        "name": "国家理事派",
+        "description": "你把组织当做一个严密整体，强调纪律、效率和本社优先，对外强硬。理事长的决策，不容置疑。",
+        "stats": { "econ": 20, "dipl": 50, "govt": 30, "scty": 50 }
     },
     {
-        "name": "Neo-Conservatism",
-        "stats": {
-            "econ": 20,
-            "dipl": 20,
-            "govt": 40,
-            "scty": 20
-        }
+        "name": "强硬保守派",
+        "description": "你对外强硬、对内保守，资源效率优先，等级秩序分明。理事长的权威，就是组织的脊梁。",
+        "stats": { "econ": 20, "dipl": 20, "govt": 40, "scty": 20 }
     },
     {
-        "name": "Fundamentalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 30,
-            "govt": 30,
-            "scty": 5
-        }
+        "name": "原教旨信徒",
+        "description": "你对理事长的崇拜已达原教旨级别，传统秩序不可挑战，资源分配你不太关心。每日起床第一句：理事长万岁！",
+        "stats": { "econ": 20, "dipl": 30, "govt": 30, "scty": 5 }
     },
     {
-        "name": "Libertarian Capitalism",
-        "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 80,
-            "scty": 60
-        }
+        "name": "自由效率派",
+        "description": "你支持少干预、高效率、会员自主，资源向市场（划掉）向能者倾斜。理事长最好只负责签字和接受崇拜。",
+        "stats": { "econ": 20, "dipl": 50, "govt": 80, "scty": 60 }
     },
     {
-        "name": "Market Anarchism",
-        "stats": {
-            "econ": 20,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
-        }
+        "name": "无管理事派",
+        "description": "你认为理事会不应存在，各组自负盈亏、自行其是。理事长？有也行，别管我就好。",
+        "stats": { "econ": 20, "dipl": 50, "govt": 100, "scty": 50 }
     },
     {
-        "name": "Objectivism",
-        "stats": {
-            "econ": 10,
-            "dipl": 50,
-            "govt": 90,
-            "scty": 40
-        }
+        "name": "绝对个人派",
+        "description": "你把个人自由置于一切之上，反对集体分配和权威干预。理事长是空气——但测试结论还是会给你匹配一个。",
+        "stats": { "econ": 10, "dipl": 50, "govt": 90, "scty": 40 }
     },
     {
-        "name": "Totalitarian Capitalism",
-        "stats": {
-            "econ": 0,
-            "dipl": 30,
-            "govt": 0,
-            "scty": 50
-        }
+        "name": "极权理事派",
+        "description": "你支持理事长绝对权力，资源高度集中，等级森严。组织就是一台机器，理事长是唯一的操作员。",
+        "stats": { "econ": 0, "dipl": 30, "govt": 0, "scty": 50 }
     },
     {
-        "name": "Ultra-Capitalism",
-        "stats": {
-            "econ": 0,
-            "dipl": 40,
-            "govt": 50,
-            "scty": 50
-        }
+        "name": "极致效率派",
+        "description": "你把组织效率推到极致，反对福利共享，会员是螺丝钉。理事长负责拧紧每一颗。",
+        "stats": { "econ": 0, "dipl": 40, "govt": 50, "scty": 50 }
     },
     {
-        "name": "Anarcho-Capitalism",
-        "stats": {
-            "econ": 0,
-            "dipl": 50,
-            "govt": 100,
-            "scty": 50
-        }
+        "name": "各凭本事派",
+        "description": "你认为组织不该干预资源分配，各组各凭本事，理事长不应有实权。但喊两句万岁，也不犯法。",
+        "stats": { "econ": 0, "dipl": 50, "govt": 100, "scty": 50 }
+    },
+    {
+        "name": "崇拜理事长",
+        "description": "你在所有维度上都给出了最标准的答案：资源共享、开放合作、理性自治、积极革新——而核心只有一个：崇拜理事长。恭喜，你是满分信徒。",
+        "stats": { "econ": 100, "dipl": 100, "govt": 100, "scty": 100 }
     }
 ];

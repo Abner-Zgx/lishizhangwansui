@@ -47,7 +47,7 @@
     <img id="img-progress" src="value_images/progress.svg" height="128pt"/>
 </div>
 <h2>最终结论：<span class="weight-300" id="ideology-label"></span></h2>
-<p>无论你怎么回答，经过精密分析，你的政治倾向只有一个——</p>
+<p id="ideology-desc"></p>
 <p>你可以复制页面顶部的链接，或使用下方图片分享结果。</p>
 <hr/>
 <img src="" id="banner">
@@ -74,10 +74,10 @@
         }
     }
 
-    econArray = ["共产主义","社会主义","社会民主","中间派","市场主义","资本主义","自由放任"]
-    diplArray = ["世界主义","国际主义","和平主义","平衡","爱国","民族主义","沙文主义"]
-    govtArray = ["无政府","自由意志","自由主义","温和","国家主义","威权","极权"]
-    sctyArray = ["革命","非常进步","进步","中立","传统","非常传统","反动"]
+    econArray = ["终极共享","高度共享","倾向共享","中立","倾向效率","高度效率","极致效率"]
+    diplArray = ["全球联合","国际联合","倾向联合","平衡","倾向本社","高度本社","极致本社"]
+    govtArray = ["完全自主","高度自主","倾向自主","温和","倾向权威","高度权威","极致权威"]
+    sctyArray = ["极致革新","高度革新","倾向革新","中立","倾向传统","高度传统","极致传统"]
 
     function setLabel(val,ary) {
         if (val > 100) { return "" } else
@@ -114,8 +114,23 @@
     document.getElementById("state-label").innerHTML = setLabel(liberty, govtArray)
     document.getElementById("society-label").innerHTML = setLabel(progress, sctyArray)
 
-    ideology = "崇拜理事长"
+    ideology = ""
+    ideologyDesc = ""
+    ideodist = Infinity
+    for (var i = 0; i < ideologies.length; i++) {
+        dist = 0
+        dist += Math.pow(Math.abs(ideologies[i].stats.econ - equality), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.govt - liberty), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.dipl - peace), 1.73856063)
+        dist += Math.pow(Math.abs(ideologies[i].stats.scty - progress), 1.73856063)
+        if (dist < ideodist) {
+            ideology = ideologies[i].name
+            ideologyDesc = ideologies[i].description
+            ideodist = dist
+        }
+    }
     document.getElementById("ideology-label").innerHTML = ideology
+    document.getElementById("ideology-desc").innerHTML = ideologyDesc
 
     function createImage(src, x, y, w, h) {
         img = new Image ()
