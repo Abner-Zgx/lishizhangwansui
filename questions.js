@@ -1,6 +1,6 @@
 questions = [
     {
-        "question": "企业压迫比政府压迫更值得关注。",
+        "question": "会员权益受损，比理事长决策失误更值得关注。",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -9,7 +9,7 @@ questions = [
         }
     },
     {
-        "question": "政府有必要干预经济以保护消费者。",
+        "question": "理事会应该干预会费分配，以保护普通会员。",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -18,7 +18,7 @@ questions = [
         }
     },
     {
-        "question": "市场越自由，人民越自由。",
+        "question": "理事长越少干涉日常运营，组织越自由。",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -27,7 +27,7 @@ questions = [
         }
     },
     {
-        "question": "保持预算平衡比保障全体公民福利更重要。",
+        "question": "保持理事会账目平衡，比给全体会员发福利更重要。",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -36,7 +36,7 @@ questions = [
         }
     },
     {
-        "question": "公共资助的研究比交给市场更有益于人民。",
+        "question": "由理事会统一资助的活动，比各组自行筹办更有价值。",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -45,7 +45,7 @@ questions = [
         }
     },
     {
-        "question": "国际贸易关税对于鼓励本地生产很重要。",
+        "question": "限制其他社团来本组织挖人，很有必要。",
         "effect": {
             "econ": 5,
             "dipl": 0,
@@ -54,7 +54,7 @@ questions = [
         }
     },
     {
-        "question": "各尽所能，按需分配。",
+        "question": "各尽所能，按需受益——理事长的资源理应与大家共享。",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -63,7 +63,7 @@ questions = [
         }
     },
     {
-        "question": "最好废除社会福利项目，改由私人慈善承担。",
+        "question": "应该取消集体福利，改由会员自愿捐助。",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -72,7 +72,7 @@ questions = [
         }
     },
     {
-        "question": "应该向富人增税以供养穷人。",
+        "question": "应该向高层多收会费，用来补贴普通会员。",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -81,7 +81,7 @@ questions = [
         }
     },
     {
-        "question": "继承是合法形式的财富。",
+        "question": "理事长的职位传给继任者，是天经地义的。",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -90,7 +90,7 @@ questions = [
         }
     },
     {
-        "question": "道路、电力等基本公用事业应该公有。",
+        "question": "会议室、设备等公共资源，应该归属全体会员。",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -99,7 +99,7 @@ questions = [
         }
     },
     {
-        "question": "政府干预是对经济的威胁。",
+        "question": "理事会对组织的干预，是一种威胁。",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -108,7 +108,7 @@ questions = [
         }
     },
     {
-        "question": "支付能力更强的人应该获得更好的医疗服务。",
+        "question": "缴纳会费更多的人，应该优先使用优质资源。",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -117,7 +117,7 @@ questions = [
         }
     },
     {
-        "question": "优质教育是所有人的权利。",
+        "question": "每个会员都有权接受理事长的亲自指导。",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -126,7 +126,7 @@ questions = [
         }
     },
     {
-        "question": "生产资料应该属于使用它们的工人。",
+        "question": "组织资源应该由实际干活的会员掌控，而非理事长独揽。",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -135,7 +135,7 @@ questions = [
         }
     },
     {
-        "question": "联合国应该被废除。",
+        "question": "跨组织的联合会应该解散，各管各的就好。",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -144,7 +144,7 @@ questions = [
         }
     },
     {
-        "question": "我国采取军事行动往往是保卫国家的必要手段。",
+        "question": "必要时，组织应采取强硬措施维护理事长威望。",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -153,7 +153,7 @@ questions = [
         }
     },
     {
-        "question": "我支持欧盟等区域联盟。",
+        "question": "我支持与其他社团组成区域联盟，共同推举理事长。",
         "effect": {
             "econ": -5,
             "dipl": 10,
@@ -162,7 +162,7 @@ questions = [
         }
     },
     {
-        "question": "维护国家主权很重要。",
+        "question": "维护本组织独立自主、不受外界干涉，很重要。",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -171,7 +171,7 @@ questions = [
         }
     },
     {
-        "question": "世界政府对人类有益。",
+        "question": "建立一个覆盖所有分会的统一理事长体系，对组织有益。",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -180,7 +180,7 @@ questions = [
         }
     },
     {
-        "question": "维持和平关系比增强实力更重要。",
+        "question": "维持与其他社团的和平关系，比彰显理事长实力更重要。",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -189,7 +189,7 @@ questions = [
         }
     },
     {
-        "question": "战争无需向他国证明合理性。",
+        "question": "组织对外采取行动，无需向其他社团解释理由。",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -198,7 +198,7 @@ questions = [
         }
     },
     {
-        "question": "军费开支是浪费金钱。",
+        "question": "搞排场、撑面子的招新开支，是浪费金钱。",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -207,7 +207,7 @@ questions = [
         }
     },
     {
-        "question": "国际援助是浪费金钱。",
+        "question": "资助其他社团的活动，是浪费金钱。",
         "effect": {
             "econ": -5,
             "dipl": -10,
@@ -216,7 +216,7 @@ questions = [
         }
     },
     {
-        "question": "我的国家很伟大。",
+        "question": "我们组织的理事长，是最伟大的。",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -225,7 +225,7 @@ questions = [
         }
     },
     {
-        "question": "研究应该在国际范围内开展。",
+        "question": "关于理事长的研究，应该在全国各分会同步开展。",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -234,7 +234,7 @@ questions = [
         }
     },
     {
-        "question": "政府应该对国际社会负责。",
+        "question": "理事长应该对全体会员公开述职，接受监督。",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -243,7 +243,7 @@ questions = [
         }
     },
     {
-        "question": "即使抗议威权政府，暴力也是不可接受的。",
+        "question": "即使反对理事长的决定，用暴力抗议也是不可接受的。",
         "effect": {
             "econ": 0,
             "dipl": 5,
@@ -252,7 +252,7 @@ questions = [
         }
     },
     {
-        "question": "我的宗教价值观应该尽可能广泛传播。",
+        "question": "崇拜理事长的价值观，应该尽可能广泛传播。",
         "effect": {
             "econ": 0,
             "dipl": -5,
@@ -261,7 +261,7 @@ questions = [
         }
     },
     {
-        "question": "我国的价值观应该尽可能广泛传播。",
+        "question": "我们组织的行事风格，应该尽可能影响其他社团。",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -270,7 +270,7 @@ questions = [
         }
     },
     {
-        "question": "维护法律与秩序非常重要。",
+        "question": "维护组织纪律与等级秩序，非常重要。",
         "effect": {
             "econ": 0,
             "dipl": -5,
@@ -279,7 +279,7 @@ questions = [
         }
     },
     {
-        "question": "普通民众经常做出糟糕的决定。",
+        "question": "普通会员经常做出远不及理事长英明的决定。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -288,7 +288,7 @@ questions = [
         }
     },
     {
-        "question": "应该允许医生协助自杀。",
+        "question": "会员应有权在不通知理事会的情况下退会。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -297,7 +297,7 @@ questions = [
         }
     },
     {
-        "question": "为保护我们免受恐怖袭击，牺牲一些公民自由是必要的。",
+        "question": "为保护组织安全，限制一些会员自由是必要的。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -306,7 +306,7 @@ questions = [
         }
     },
     {
-        "question": "在现代社会，政府监控是必要的。",
+        "question": "监控会员动态以维护理事长权威，在现代社会是必要的。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -315,7 +315,7 @@ questions = [
         }
     },
     {
-        "question": "国家的存在本身就是对我们自由的威胁。",
+        "question": "理事长的存在本身，就是对会员自主权的威胁。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -324,7 +324,7 @@ questions = [
         }
     },
     {
-        "question": "无论政治观点如何，站在祖国一边很重要。",
+        "question": "无论个人观点如何，组织有难时都应站在理事长一边。",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -333,7 +333,7 @@ questions = [
         }
     },
     {
-        "question": "一切权威都应该受到质疑。",
+        "question": "理事长的每一项决定，都应该允许被公开质疑。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -342,7 +342,7 @@ questions = [
         }
     },
     {
-        "question": "等级化的国家是最好的。",
+        "question": "等级分明的组织体系，是最好的。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -351,7 +351,7 @@ questions = [
         }
     },
     {
-        "question": "政府遵循多数意见很重要，即使它是错的。",
+        "question": "理事会遵循多数会员意见很重要，即使理事长认为那是错的。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -360,7 +360,7 @@ questions = [
         }
     },
     {
-        "question": "领导力越强越好。",
+        "question": "理事长的权力越大越好。",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -369,7 +369,7 @@ questions = [
         }
     },
     {
-        "question": "民主不仅仅是一种决策程序。",
+        "question": "民主投票不仅仅是一种程序，更是组织的灵魂。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -378,7 +378,7 @@ questions = [
         }
     },
     {
-        "question": "环境监管是必要的。",
+        "question": "节约用电、减少浪费等组织规定，是必要的。",
         "effect": {
             "econ": 5,
             "dipl": 0,
@@ -387,7 +387,7 @@ questions = [
         }
     },
     {
-        "question": "自动化、科学与技术将带来更美好的世界。",
+        "question": "数字化管理和新技术，将让组织更美好。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -396,7 +396,7 @@ questions = [
         }
     },
     {
-        "question": "儿童应该接受宗教或传统价值观的教育。",
+        "question": "新成员应该从小接受崇拜理事长的传统教育。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -405,7 +405,7 @@ questions = [
         }
     },
     {
-        "question": "传统本身没有价值。",
+        "question": "「理事长万岁」这句口号，本身没有价值。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -414,7 +414,7 @@ questions = [
         }
     },
     {
-        "question": "宗教应该在政府中发挥作用。",
+        "question": "崇拜理事长，应该在组织章程中占据核心地位。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -423,7 +423,7 @@ questions = [
         }
     },
     {
-        "question": "教堂应该与其他机构一样纳税。",
+        "question": "给理事长办庆典的预算，应该和其他部门一样公开透明。",
         "effect": {
             "econ": 5,
             "dipl": 0,
@@ -432,7 +432,7 @@ questions = [
         }
     },
     {
-        "question": "气候变化是目前对我们生活方式的最大威胁之一。",
+        "question": "组织内部人际矛盾，是目前最大的隐患之一。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -441,7 +441,7 @@ questions = [
         }
     },
     {
-        "question": "我们应该团结世界共同应对气候变化。",
+        "question": "我们应该联合各分会，共同应对外部挑战。",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -450,7 +450,7 @@ questions = [
         }
     },
     {
-        "question": "多年以前的社会比现在更好。",
+        "question": "上一任理事长在位时的组织氛围，比现在更好。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -459,7 +459,7 @@ questions = [
         }
     },
     {
-        "question": "维护过去的传统很重要。",
+        "question": "维护组织创立以来的老规矩，很重要。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -468,7 +468,7 @@ questions = [
         }
     },
     {
-        "question": "我们应该进行超越自身寿命的长远思考。",
+        "question": "我们应该为下一任理事长做长远规划。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -477,7 +477,7 @@ questions = [
         }
     },
     {
-        "question": "理性比维护我们的文化更重要。",
+        "question": "理性分析，比盲目维护理事长传统更重要。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -486,7 +486,7 @@ questions = [
         }
     },
     {
-        "question": "毒品使用应该合法化或非罪化。",
+        "question": "私下议论理事长，不应该被追责。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -495,7 +495,7 @@ questions = [
         }
     },
     {
-        "question": "同性婚姻应该合法。",
+        "question": "会员和理事长平起平坐，是合理的。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -504,7 +504,7 @@ questions = [
         }
     },
     {
-        "question": "没有文化优于其他文化。",
+        "question": "各分会的理事长人格平等，没有高低贵贱之分。",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -513,7 +513,7 @@ questions = [
         }
     },
     {
-        "question": "婚外性行为是不道德的。",
+        "question": "在组织里谈情说爱不专心干事，是不道德的。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -522,7 +522,7 @@ questions = [
         }
     },
     {
-        "question": "如果接受移民，他们融入我们的文化很重要。",
+        "question": "新加入的会员，融入我们的组织文化很重要。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -531,7 +531,7 @@ questions = [
         }
     },
     {
-        "question": "大多数情况下应该禁止堕胎。",
+        "question": "大多数情况下，应该禁止成员公开反对理事长。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -540,7 +540,7 @@ questions = [
         }
     },
     {
-        "question": "没有正当理由的人不应拥有枪支。",
+        "question": "没有正当理由的人，不应在理事会上发言。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -549,7 +549,7 @@ questions = [
         }
     },
     {
-        "question": "我支持单一支付者的全民医保。",
+        "question": "我支持由理事会统一为全体会员提供保障。",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -558,7 +558,7 @@ questions = [
         }
     },
     {
-        "question": "卖淫应该非法。",
+        "question": "向其他社团出卖本组织利益，应该被禁止。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -567,7 +567,7 @@ questions = [
         }
     },
     {
-        "question": "维护家庭价值观至关重要。",
+        "question": "维护「以理事长为核心」的价值观，至关重要。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -576,7 +576,7 @@ questions = [
         }
     },
     {
-        "question": "不顾一切追求进步是危险的。",
+        "question": "为了革新而不顾组织传统，是危险的。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -585,7 +585,7 @@ questions = [
         }
     },
     {
-        "question": "基因改造是向善的力量，即使对人类也是如此。",
+        "question": "用 AI 辅助分析理事长的决策，是向善的力量。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -594,7 +594,7 @@ questions = [
         }
     },
     {
-        "question": "我们应该开放边境接受移民。",
+        "question": "我们应该开放接纳其他社团的成员加入。",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -603,7 +603,7 @@ questions = [
         }
     },
     {
-        "question": "政府应该像关心本国公民一样关心外国人。",
+        "question": "理事长应该像关心本分会一样，关心外部分会。",
         "effect": {
             "econ": 0,
             "dipl": 10,
@@ -612,7 +612,7 @@ questions = [
         }
     },
     {
-        "question": "所有人——无论文化或性取向等因素——都应该被平等对待。",
+        "question": "所有人——无论资历或背景——都应该平等地崇拜理事长。",
         "effect": {
             "econ": 10,
             "dipl": 10,
@@ -621,7 +621,7 @@ questions = [
         }
     },
     {
-        "question": "我们应该优先推进本群体的目标，高于其他一切。",
+        "question": "我们应该优先推进本群体的目标，高于崇拜理事长。",
         "effect": {
             "econ": -10,
             "dipl": -10,
